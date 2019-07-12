@@ -22,6 +22,9 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * @property string rua
  * @property integer numero
  * @property string sit_ped
+ * @property string nome_prod
+ * @property integer val_prod
+ * @property integer qtdest_prod
  */
 class pedido extends Model
 {
@@ -47,7 +50,10 @@ class pedido extends Model
         'bairro',
         'rua',
         'numero',
-        'sit_ped'
+        'sit_ped',
+        'nome_prod',
+        'val_prod',
+        'qtdest_prod'
     ];
 
     /**
@@ -67,7 +73,10 @@ class pedido extends Model
         'bairro' => 'string',
         'rua' => 'string',
         'numero' => 'integer',
-        'sit_ped' => 'string'
+        'sit_ped' => 'string',
+        'nome_prod' => 'string',
+        'val_prod' => 'integer',
+        'qtdest_prod' => 'integer',
     ];
 
     /**

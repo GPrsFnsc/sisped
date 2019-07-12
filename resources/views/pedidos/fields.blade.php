@@ -48,6 +48,21 @@ $produtos = DB::table('produto')->get();
     {!! Form::text('val_prod', 'R$ ' . $valor,['class' => 'form-control','disabled']) !!}
 </div>
 @endforeach
+<!-- nome_prod Field -->
+<div class="form-group col-sm-4">
+    {!! Form::label('nome_prod', 'Nome do Produto:') !!}
+    {!! Form::text('nome_prod', null, ['class' => 'form-control']) !!}
+</div>
+<!-- qtdest_prod Field -->
+<div class="form-group col-sm-1">
+    {!! Form::label('qtdest_prod', 'Quantidade:') !!}
+    {!! Form::number('qtdest_prod', null, ['class' => 'form-control']) !!}
+</div>
+<!-- val_prod Field -->
+<div class="form-group col-sm-1">
+    {!! Form::label('val_prod', 'Valor:') !!}
+    {!! Form::number('val_prod', null, ['class' => 'form-control']) !!}
+</div>
 <!-- Solicitante Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('solicitante', 'Solicitante:') !!}

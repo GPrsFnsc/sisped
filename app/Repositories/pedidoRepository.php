@@ -27,7 +27,9 @@ class pedidoRepository extends BaseRepository
         'bairro',
         'rua',
         'numero',
-        'sit_ped'
+        'sit_ped',
+        'qtdest_prod',
+        'val_prod'
     ];
 
     /**

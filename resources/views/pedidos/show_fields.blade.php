@@ -10,6 +10,24 @@
     <p>{!! $pedido->id_prod !!}</p>
 </div> -->
 
+<!-- NOme Field -->
+<div class="form-group">
+    {!! Form::label('nome_prod', 'Nome do Produto:') !!}
+    <p>{!! $pedido->nome_prod !!}</p>
+</div>
+
+<!-- Quantidade Field -->
+<div class="form-group">
+    {!! Form::label('qtdest_prod', 'Quantidade:') !!}
+    <p>{!! $pedido->qtdest_prod !!}</p>
+</div>
+
+<!-- Solicitante Field -->
+<div class="form-group">
+    {!! Form::label('val_prod', 'Valor:') !!}
+    <p>{!! $pedido->val_prod !!}</p>
+</div>
+
 <!-- Dt Ped Field -->
 <div class="form-group">
     {!! Form::label('dt_ped', 'Data do Pedido:') !!}

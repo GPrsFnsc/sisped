@@ -4,6 +4,7 @@
             <tr>
                 <!-- <th>Id Prod</th> -->
         <th>Data</th>
+        <th>Produto</th>
         <th>Solicitante</th>
         <th>Despachante</th>
         <th>Cep</th>
@@ -21,6 +22,7 @@
             <tr>
                 <!-- <td>{!! $pedido->id_prod !!}</td> -->
             <td>{!! date('d/m/Y', strtotime($pedido->dt_ped))!!}</td>
+            <td>{!! $pedido->nome_prod !!}</td>
             <td>{!! $pedido->solicitante !!}</td>
             <td>{!! $pedido->despachante !!}</td>
             <td>{!! $pedido->cep !!}</td>

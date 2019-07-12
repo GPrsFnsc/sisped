@@ -11,6 +11,8 @@ Após clonar o projeto, atualize os pacotes com o camando:
 
 composer update
 
+crie o nome da base como sisped.
+
 abra o arquivo TABELA.txt e execute e script de criação tabelas no seu banco MYSQL.
 
 Abra o aquivo .env na raiz o projeto e altere as linhas com as credenciais do seu banco de dados.
